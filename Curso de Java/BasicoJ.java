@@ -45,14 +45,14 @@ if (a==b) { //a es igual a b?
 		System.out.println("a ="+a+ " es mayor que b = "+b);// un mensaje en cosola si no
 	}}// cerramos condicionales de menor mayor
 if(a%2==0) { // a es divisible entre 2? 
-	System.out.println("El nuero a = "+a+" es dibisible entre 2");// un mensaje en cosola si sí
+	System.out.println("El nuero a = "+a+" es divisible entre 2");// un mensaje en cosola si sí
 }else {// si a no es divisible entre 2?
-	System.out.println("El nuero a ="+a+" no es dibisible entre 2");// un mensaje en cosola si no
+	System.out.println("El nuero a ="+a+" no es divisible entre 2");// un mensaje en cosola si no
 }// cerramos condicionales a divisible
 if(b%2==0) {// b es divisible entre 2?
-	System.out.println("El nuero b ="+b+" es dibisible entre 2");// un mensaje en cosola si sí
+	System.out.println("El nuero b ="+b+" es divisible entre 2");// un mensaje en cosola si sí
 }else {// si b no es divisible entre 2?
-	System.out.println("El nuero b ="+b+" no es dibisible entre 2");// un mensaje en cosola si no
+	System.out.println("El nuero b ="+b+" no es divisible entre 2");// un mensaje en cosola si no
 }// cerramos condicionales b divisible
 char A,B; //2 chars
 A=(char)a;// de "a" int a "A" char
