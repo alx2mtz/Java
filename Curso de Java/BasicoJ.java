@@ -62,18 +62,18 @@ System.out.println("El numero b = "+b+" en AscII es "+B );// un mensaje en cosol
 System.out.println("");//salto de linea
 int ac=1; //int contador
 System.out.println("Vamor a mostrar b = "+b+" veces el a = "+a);// un mensaje en cosola
-while (ac<=b) { // un siclo while
+while (ac<=b) { //un ciclo while mientras ac sea menor o igual que b
 	System.out.println(a); // se imprime a
-	ac++;// el contador sube mientras sema menor o igual a b
-}
+	ac++; // el contador sube mientras
+}// cierra while
 System.out.println("Vamor a mostrar a = "+a+" veces el b = "+b);// un mensaje en cosola
-for(int bc=1;bc<=a;bc++) { // Un for deblara contador de b, funciona mientras bc sea menor o igual a "a", aumentamos uno por cada vulta
+for(int bc=1;bc<=a;bc++) { //un for declara bc, fucniona mientras bc sea menor o igual que, aunmenta uno por casa vuelta
 	System.out.println(b); // se imprime b
-}
-System.out.println("Vamor a mostrar ac = "+ac+" hasta que sea 0 de nuevo a");// un mensaje en cosola
+}// cierra for
+System.out.println("Vamor a mostrar ac = "+ac+" hasta que sea 0 de nuevo");// un mensaje en cosola
 do {//abrimos un do while 
 	System.out.println(ac); // se imprime ac
-	ac--; //restamos una a ac
-}while(ac!=-1); // mientras que ac sea diferete de 1
+	ac--; //se resta uno a ac
+}while(ac!=-1); // mientras ac sea diferete de 1
 	
 	}}
